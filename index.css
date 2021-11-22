@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-image: url('https://images.unsplash.com/photo-1501139083538-0139583c060f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80');
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+}
+h1 {
+  padding-top: 100px;
+  text-shadow: 20px;
+  font-size: 4rem;
+}
+
+.countdown-container {
+  display: flex;
+}
+
+.big-text {
+  font-size: 6rem;
+  line-height: 1;
+  justify-content: center;
+  color: aliceblue;
+  margin: 0 2rem;
+  padding-top: 3rem;
+}
+
+.countdown-el {
+  text-align: center;
+  color: aliceblue;
+}
